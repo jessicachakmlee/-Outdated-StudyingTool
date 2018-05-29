@@ -6,3 +6,16 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1 {
+  border: cornflowerblue;
+}
+
+
+.w3-container{
+  width:75%; background-color:#F8F8FF; overflow:auto;
+}
+
+.w3-panel.w3-border.w3-border-blue {
+  width:75%; background-color:#00B7FF; overflow:auto;
+}

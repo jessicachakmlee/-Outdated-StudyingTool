@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple Study Flash Cards</title>
+
+    <div class="w3-container w3-teal">
     <h1> Simple Study Flash Cards 2018</h1>
+    </div>
+        <br> </br>
+    <div class="w3-panel w3-border w3-border-blue">
+    <h2>Questions:</h2>
     <div id="StudyQuestions">
         <br> </br>
 
@@ -12,15 +18,15 @@
     <button onclick="showDiv()"> Answer</button>
     <button onclick="nextQuestion()"> Next Question</button>
     <br> </br>
-    <h1> Answers</h1>
+    <h2> Answers:</h2>
     <div id="StudyAnswers">
     </div>
-
     <br> </br>
-
-
-
     </div>
+    <button onclick="deleteQuestion()">Delete Question</button>
+
+
+    <div class="w3-container">
     <h2>Question Submission</h2>
         <fieldset>
 
@@ -30,6 +36,7 @@
                           id = "questionText"
                           name = "questionText"
                           wrap = "hard"></textarea>
+            <br> </br>
             <label>Answers</label>
              <textarea rows = "4"
                       cols ="50"
@@ -41,10 +48,10 @@
     <div class="button">
         <button type="submit" onclick="addInfo()">Submit your Question</button>
         <div id="submissionSuccess">
-
         </div>
     </div>
-        <script src ="javascript.js"></script>
+        <script src ="StudyTool.js"></script>
+    </div>
 
 </head>
 <body>
